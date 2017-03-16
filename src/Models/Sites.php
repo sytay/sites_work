@@ -1,7 +1,7 @@
 <?php
 // demo commit
 namespace Sites\Models;
-//demo
+//demo5
 use Illuminate\Database\Eloquent\Model;
 
 class Sites extends Model {
