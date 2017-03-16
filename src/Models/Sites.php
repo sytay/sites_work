@@ -13,11 +13,6 @@ class Sites extends Model {
     ];
     protected $primaryKey = 'site_id';
 
-    /**
-     *
-     * @param type $params
-     * @return type
-     */
     public function get_sites($params = array()) {
         $eloquent = self::orderBy('site_id');
 
