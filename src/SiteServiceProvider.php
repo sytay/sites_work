@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 use URL, Route;
 use Illuminate\Http\Request;
-
+//
 
 class SiteServiceProvider extends ServiceProvider {
 
