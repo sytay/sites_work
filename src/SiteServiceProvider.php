@@ -1,7 +1,7 @@
 <?php
 
 namespace Sites;
-
+//
 use Illuminate\Support\ServiceProvider;
 
 use URL, Route;
