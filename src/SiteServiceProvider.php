@@ -10,14 +10,11 @@ use Illuminate\Http\Request;
 
 class SiteServiceProvider extends ServiceProvider {
 
-    /**
-     * Bootstrap the application services.
-     *
-     * @return void
-     */
+
     public function boot(Request $request) {
         /**
          * Publish
+         * /////////llll
          */
          $this->publishes([
             __DIR__.'/config/site_admin.php' => config_path('site_admin.php'),
