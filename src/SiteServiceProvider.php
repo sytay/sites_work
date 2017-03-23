@@ -1,5 +1,31 @@
+<<<<<<< OURS
+<?php'''
+
+namespace Sites;
+//
+use Illuminate\Support\ServiceProvider;
+
+use URL, Route;
+use Illuminate\Http\Request;
+
+
+class SiteServiceProvider extends ServiceProvider {
+
+    /**
+     * Bootstrap the application services.
+     *
+     * @return void
+     */
+    public function boot(Request $request) {
+        /**
+         * Publish
+         */
+         $this->publishes([
+            __DIR__.'/config/site_admin.php' => config_path('site_admin.php'),
+=======
 <?php
 /site_admin.php' => config_path('site_admin.php'),
+>>>>>>> THEIRS
         ],'config');
 
         $this->loadViewsFrom(__DIR__ . '/views', 'site');
